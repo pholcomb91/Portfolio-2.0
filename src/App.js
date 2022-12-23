@@ -1,14 +1,14 @@
 import React from "react";
-import Header from "./components/Header";
-import Section from "./components/Section";
-import Navbar from "./components/Navbar";
+import Header from "./components/pages/Header";
+import About from "./components/pages/About";
+import Navbar from "./components/pages/Navbar";
 
 function App() {
   return (
     <div>
       <Navbar />
       <Header />
-      <Section />
+      <About />
     </div>
   );
 }
