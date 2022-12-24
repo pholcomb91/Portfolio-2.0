@@ -1,11 +1,15 @@
 import React from 'react';
-// Here we import the Header.css file to grant access to some additional classNames
-// import '../styles/Header.css';
+
 
 const styles = {
   h1: {
-    fontSize: '100px',
-    backgound: 'transparent',
+    fontSize: '7vw',
+    position: 'fixed',
+    background: 'transparent',
+    top: '10px',
+    border: '0px none',
+    textShadow: '2px 2px 4px #dadedf',
+    
   },
   hero: {
     width: '100%',
@@ -15,9 +19,9 @@ const styles = {
 
 function Header() {
   return (
-    <header className="header">
-      <img style={styles.hero} src='../public/imgs/1C7A2199_websize.jpg' alt='Peter and Family'></img>
+    <header className="header d-flex justify-content-center">
       <h1 style={styles.h1} className='text-center'>Peter Holcomb</h1>
+      <img style={styles.hero} src='./imgs/1C7A2199_websize.jpg' alt='Peter and Family'></img>
     </header>
   );
 }
