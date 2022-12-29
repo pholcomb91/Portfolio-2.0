@@ -1,16 +1,14 @@
 import React from "react";
+import PortfolioContainer from "./components/PortfolioContainer";
 import Header from "./components/pages/Header";
-import About from "./components/pages/About";
-import Navbar from "./components/pages/Navbar";
 
 function App() {
   return (
     <div>
-      <Navbar />
       <Header />
-      <About />
+      <PortfolioContainer />
     </div>
   );
 }
 
-export default App;
+export default App
