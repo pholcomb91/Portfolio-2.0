@@ -8,7 +8,7 @@ const styles = {
     background: 'transparent',
     top: '10px',
     border: '0px none',
-    textShadow: '2px 2px 4px #dadedf',
+    textShadow: '4px 1px 4px #dadedf',
     
   },
   hero: {
