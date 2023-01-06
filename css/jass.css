@@ -1,0 +1,9 @@
+* {
+    background-color: #e9cc95;
+    color: #415971;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a:hover {
+    color: #ceac80;
+}
