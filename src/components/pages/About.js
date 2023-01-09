@@ -1,4 +1,5 @@
 import React from 'react';
+import me from '../../assets/me.JPG';
 
 const styles = {
   card: {
@@ -9,8 +10,7 @@ const styles = {
 
   },
   cardBody: {
-    backgroundColor: '#ceac80',
-    borderRadius: '10px',
+    backgroundColor: '#ceac80'
   }
 }
 
@@ -19,7 +19,8 @@ function About() {
   return (
     <div className='d-flex justify-content-center'>
       <div className="text-center card m-3" style={styles.card}>
-        <div className="card-body" style={styles.cardBody}>
+      <img src={me} class="card-img-top" alt="Peter in workshop"></img>
+        <div className="card-body rounded-bottom" style={styles.cardBody}>
           <h5 className="card-title" style={styles.cardBody}>A Summary</h5>
           <p className="card-text" style={styles.cardBody}>First and most importantly, I am an apprentice of Jesus. Next comes my beloved family, 
         I have a wonderful wife Heidi and sons Daxton and Rhett. I am a passionate maker and 

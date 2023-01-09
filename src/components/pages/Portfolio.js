@@ -4,6 +4,7 @@ import forumNav from "../../assets/Homepage2.png"
 import drinkApp from "../../assets/Drink-app.png"
 import regex from "../../assets/Regex.png"
 import workADay from "../../assets/GTD.png"
+import pass from "../../assets/pass.png"
 
 const styles= {
     card: {
@@ -66,6 +67,15 @@ const projects = [
         alt: "Peter's CV screenshot"
 
     },
+    {
+        key: "6",
+        title: "Password Genberator",
+        img: pass,
+        deployed: "https://pholcomb91.github.io/Generator-of-Passwords/",
+        repo: "https://github.com/pholcomb91/Generator-of-Passwords",
+        alt: "Password Generator screenshot"
+
+    },
 ];
 
 class Portfolio extends React.Component {
@@ -80,7 +90,7 @@ class Portfolio extends React.Component {
         const { projects } = this.state;
         const portfolio = projects.map(project => {
             return (
-                <div className="card col col-sm-12 m-4 p-0" style={styles.card} key= {project.key}>
+                <div className="card col col-12 m-4 p-0" style={styles.card} key= {project.key}>
                     <img src={project.img} className="card-img-top" alt={project.alt}></img>
                     <div className="col card-body justify-content-center rounded-bottom" style={styles.cardBody}>
                         <h5 className="card-title m-1 text-center" style={styles.cardBody}>{project.title}</h5>

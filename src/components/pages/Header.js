@@ -1,4 +1,5 @@
 import React from 'react';
+import background from '../../assets/1C7A2199_websize.jpg';
 
 
 const styles = {
@@ -21,7 +22,7 @@ function Header() {
   return (
     <header className="header d-flex justify-content-center">
       <h1 style={styles.h1} className='text-center'>Peter Holcomb</h1>
-      <img style={styles.hero} src='./imgs/1C7A2199_websize.jpg' alt='Peter and Family'></img>
+      <img style={styles.hero} src={background} alt='Peter and Family'></img>
     </header>
   );
 }
