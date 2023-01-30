@@ -1,10 +1,10 @@
 import React from "react";
 import cvImg from "../../assets/CV.png"
-import forumNav from "../../assets/Homepage2.png"
 import drinkApp from "../../assets/Drink-app.png"
 import regex from "../../assets/Regex.png"
 import workADay from "../../assets/GTD.png"
 import pass from "../../assets/pass.png"
+import STT from "../../assets/SmackTalkToe.png"
 
 const styles= {
     card: {
@@ -28,10 +28,10 @@ const styles= {
 const projects = [
     {
         key: "1",
-        title: "Forum For Life",
-        img: forumNav,
-        deployed: "https://shrouded-gorge-83366.herokuapp.com/",
-        repo: "https://github.com/pholcomb91/FORUM",
+        title: "Smack Talk Toe",
+        img: STT,
+        deployed: "https://salty-castle-59845.herokuapp.com/",
+        repo: "https://github.com/jlmayo/smackTalkToe",
         alt: "Forum for Life Screenshot"
     },
     {
