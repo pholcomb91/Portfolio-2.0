@@ -4,7 +4,7 @@
 This is react app and 2nd version of my portfolio. It is a succinct but accurate portrayal of my abilities, interests, and self.
 
 ## Credit
-Assistance was received from proffesors and tutors in the program.
+Assistance was received from professors and tutors in the program.
 
 ## Links
 Deployed link: https://pholcomb91.github.io/Portfolio-2.0/#about
