@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/Portfolio-2.0/static/js/main.36aa765c.js",
+    "main.js": "/Portfolio-2.0/static/js/main.e6af760b.js",
     "static/media/me.JPG": "/Portfolio-2.0/static/media/me.f167a777f3b7d6e12c56.JPG",
     "static/media/CV.png": "/Portfolio-2.0/static/media/CV.3c6966c7774bef5ad54a.png",
     "static/media/Drink-app.png": "/Portfolio-2.0/static/media/Drink-app.b9b6294671a3f313458b.png",
     "static/media/1C7A2199_websize.jpg": "/Portfolio-2.0/static/media/1C7A2199_websize.aa174a68920794323940.jpg",
-    "static/media/Homepage2.png": "/Portfolio-2.0/static/media/Homepage2.d514ccfe3b7ca66f3e12.png",
+    "static/media/SmackTalkToe.png": "/Portfolio-2.0/static/media/SmackTalkToe.8c94cc794a1a6fdef659.png",
     "static/media/Regex.png": "/Portfolio-2.0/static/media/Regex.47f020a15e2cb35b4d84.png",
     "static/media/pass.png": "/Portfolio-2.0/static/media/pass.65998bf93ba4adedc591.png",
     "static/media/Resume2023.pdf": "/Portfolio-2.0/static/media/Resume2023.c4dbfd525f9cf17adff7.pdf",
     "static/media/GTD.png": "/Portfolio-2.0/static/media/GTD.0c53199d2ddefa6dc090.png",
     "index.html": "/Portfolio-2.0/index.html",
-    "main.36aa765c.js.map": "/Portfolio-2.0/static/js/main.36aa765c.js.map"
+    "main.e6af760b.js.map": "/Portfolio-2.0/static/js/main.e6af760b.js.map"
   },
   "entrypoints": [
-    "static/js/main.36aa765c.js"
+    "static/js/main.e6af760b.js"
   ]
 }
